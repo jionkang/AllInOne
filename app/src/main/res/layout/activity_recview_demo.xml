@@ -6,12 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/sample_text"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="Hello World!"
-     />
-
+    <com.anc.allinone.recyclerview.RecyclerView
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite" />
 
 </RelativeLayout>
